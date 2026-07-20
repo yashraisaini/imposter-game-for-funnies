@@ -63,10 +63,11 @@ required. Without them:
      doesn't know about your room. It'll work sometimes and glitch other
      times — get the Redis creds, it's a 2-minute signup and free tier is
      generous.
-   - `ANTHROPIC_API_KEY` — optional, from
-     https://console.anthropic.com/settings/keys. Enables AI-generated word
-     pairs for ANY topic the host types (not just the presets). Without it,
-     custom topics silently fall back to a random preset pair.
+   - `GEMINI_API_KEY` — optional, free, from
+     https://aistudio.google.com/apikey (Google account, no credit card).
+     Enables AI-generated word pairs for ANY topic the host types (not just
+     the presets). Without it, free-text topics fall back to a generic
+     unrelated pair (e.g. Coffee/Tea) instead.
 4. Redeploy after adding env vars (Vercel → Deployments → ⋮ → Redeploy).
 
 ## Project structure
@@ -80,7 +81,7 @@ lib/
   store.js             — Redis-or-memory persistence layer
   game.js              — round/vote/reveal logic, keeps secrets server-side
   words.js             — curated fallback topic/word bank
-  ai.js                — Claude-powered word pair generation for any topic
+  ai.js                — Gemini-powered word pair generation for any topic
 ```
 
 ## Ideas for what to add next
