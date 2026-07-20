@@ -67,7 +67,7 @@ required. Without them:
      https://console.anthropic.com/settings/keys. Enables AI-generated word
      pairs for ANY topic the host types (not just the presets). Without it,
      custom topics silently fall back to a random preset pair.
-4. Redeploy after adding env vars (Vercel → Deployments → ⋮ → Redeploy).
+4. Redeploy after adding env vars (Vercel → Deployments → ⋮ → Redeploy). .
 
 ## Project structure
 
