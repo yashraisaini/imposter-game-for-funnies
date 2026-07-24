@@ -4,7 +4,7 @@ A real multiplayer Imposter/Undercover word game. Next.js frontend + API-route
 backend, room codes, AI-generated word pairs for any topic, deployable free
 on Vercel.
 
-## How it plays
+## How it plays hi
 
 Two device modes, picked on the home screen:
 
