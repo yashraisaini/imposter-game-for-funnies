@@ -8,7 +8,7 @@ on Vercel.
 
 Two device modes, picked on the home screen:
 
-**Everyone's Phone (remote)** — host opens a case file, gets a 5-letter code.
+**Everyone's Phone (remote)** — host yupopens a case file, gets a 5-letter code.
 Everyone else joins with just their name + the code on their own phone. Each
 person's reveal/vote happens on their own device.
 
