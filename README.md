@@ -68,7 +68,7 @@ required. Without them:
      Enables AI-generated word pairs for ANY topic the host types (not just
      the presets). Without it, free-text topics fall back to a generic
      unrelated pair (e.g. Coffee/Tea) instead.
-4. Redeploy after adding env vars (Vercel → Deployments → ⋮ → Redeploy).
+4. Redeploy after add env vars (Vercel → Deployments → ⋮ → Redeploy). 
 
 ## Project structure
 
